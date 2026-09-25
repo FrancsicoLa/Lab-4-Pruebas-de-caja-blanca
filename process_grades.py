@@ -38,10 +38,9 @@ if __name__ == "__main__":
     students = [
         {'name': 'Ana', 'grades': [80, 90, 85]},
         {'name': 'Luis', 'grades': [70, 70, 70]},
-        {'name': 'Jorge', 'grades': []},
         {'name': 'Marta', 'grades': [40, 45, 50]}
     ]
 
     result = process_grades(students)
-    print("\nFinal processing result:")
+    #print("\nFinal processing result:")
     print(result)
